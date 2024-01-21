@@ -6,10 +6,12 @@ h1 {
 
 .card {
   border-radius: 20px;
+  width: 21rem;
+  height: 28rem;
 }
 
 .suit {
-  font-size: 80px;
+  font-size: 4rem;
 }
 
 .number {
