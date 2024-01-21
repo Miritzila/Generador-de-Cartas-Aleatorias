@@ -1,29 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>♦ ♥ Pa Pa Pa Poker Face ♠ ♣</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+
+  <body class="bg-success">
+    <!-- Contenido de tu página aquí -->
+    <h1 class="text-center">¿Afortunado en el Juego?</h1>
+    <p class="text-center">ya sabes lo que dicen...</p>
+    <div class="container-fluid text-center mt-5">
+      <div class="row">
+        <div class="col">
+          IZQUIERDA
+        </div>
+        <div class="col">
+          <div class="container-fluid text-center mt-5">
+            <div
+              class="card"
+              style="width: 18rem; height: 30rem; display: inline-block;"
+            >
+              <div class="d-flex flex-column justify-content-between h-100">
+                <!-- Contenido de la primera fila -->
+                <div class="row">
+                  <div class="col suit"><p id="palo1"></p></div>
+                  <div class="col"></div>
+                  <div class="col"></div>
+                </div>
+                <!-- Contenido de la segunda fila -->
+                <div class="row">
+                  <div class="col"></div>
+                  <div class="col">
+                    <p class="number" id="valor"></p>
+                  </div>
+                  <div class="col"></div>
+                </div>
+                <!-- Contenido de la tercera fila -->
+                <div class="row">
+                  <div class="col"></div>
+                  <div class="col"></div>
+                  <div class="col suit"><p id="palo2"></p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-5">
+            <button type="button" id="boton" class="btn btn-warning">
+              Prueba suerte de nuevo
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          DERECHA
+        </div>
       </div>
     </div>
+    <!-- Bootstrap JS y Popper.js (requerido para algunos componentes de Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
