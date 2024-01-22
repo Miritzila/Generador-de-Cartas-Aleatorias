@@ -16,12 +16,41 @@
     <p class="text-center">ya sabes lo que dicen...</p>
     <div class="container-fluid text-center mt-5">
       <div class="row">
-        <div class="col">
-          IZQUIERDA
+        <div class="col container text-center">
+          <h3>Decide el tamaño de tu carta</h3>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Alto</span>
+            <input
+              type="text"
+              class="form-control form-control-sm"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-sm"
+              id="inputAlto"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-sm"
+              >Ancho</span
+            >
+            <input
+              type="text"
+              class="form-control form-control-sm"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-sm"
+              id="inputAncho"
+            />
+          </div>
+          <button type="button" id="btnCambiar" class="btn btn-warning">
+            Cambiar
+          </button>
         </div>
         <div class="col">
           <div class="container-fluid text-center mt-5">
-            <div class="card container-fluid" style="display: inline-block">
+            <div
+              class="card container-fluid"
+              id="cartaContainer"
+              style="display: inline-block"
+            >
               <!-- Contenido de la primera fila -->
               <div class="row">
                 <div class="col suit"><p id="palo1"></p></div>
@@ -50,9 +79,7 @@
             </button>
           </div>
         </div>
-        <div class="col">
-          DERECHA
-        </div>
+        <div class="col"></div>
       </div>
     </div>
     <!-- Bootstrap JS y Popper.js (requerido para algunos componentes de Bootstrap) -->
