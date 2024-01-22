@@ -59,12 +59,11 @@ function cambiarTamanioCarta() {
   const ancho = inputAncho.value;
 
   if (!isNaN(alto) && !isNaN(ancho)) {
-    // Obtén el elemento del card y actualiza su tamaño
     const cartaContainer = document.getElementById("cartaContainer");
     cartaContainer.style.width = `${ancho}rem`;
     cartaContainer.style.height = `${alto}rem`;
   } else {
-    alert("Por favor, ingresa valores numéricos para alto y ancho.");
+    alert("Eso no son numeros");
   }
 }
 
