@@ -1,13 +1,14 @@
 
-# Generador de cartas aleatorias
+# Random Card Generator
 
-Algoritmo diseñado para generar aleatoriamente una carta en cada actualización:
+Algorithm designed to randomly generate a card with each update.
 
-- Cada vez que el sitio web se actualice se mostrará una nueva carta aleatoria.
+- Each time the website is refreshed, a new random card will be displayed.
+- The card will have one of the possible suits: Hearts, Spades, Clubs, and Diamonds.
+- The value of the card will be one of the following: 2 to 10, King, Queen, Jack, or Ace (no jokers).
 
-- La carta tendrá uno de los posibles palos: Corazones, Picas, Tréboles y Diamantes.
 
-- El valor de la carta debe será uno de los siguientes: 2 a 10, Rey, Reina, Jota o As (sin comodín).
+
 
 
 
